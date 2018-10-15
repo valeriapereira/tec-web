@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Formulario</title>
+			<meta charset="utf-8">
+			<style>
+			body {
+				padding-bottom: 90px;
+
+			}
+			h1 {
+				text-align: center;
+				background-color: #851944;
+				color: #FFF;
+				padding:25px;
+				border-bottom: 10px solid black;
+				font-size: 60px;
+			}
+			legend {
+				font-family: "Open Sans Condensed", "Arial", sans-serif;
+				color: #851944;
+			}
+			.rodape {
+				background-color: gray;
+				color: White;
+				position: fixed;
+				clear: both;
+				box-sizing: border-box;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+			}
+			button {
+				font-family: arial;
+				font-size: 14px;
+				font-weight:700;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				background-color: gray;
+				color: white;
+				box-shadow: 0 5px 0 gray;
+			}
+			
+			.caixa {
+				width: 40%;
+				border: 2px solid gray;
+			}
+			p {
+				font-family: "Open Sans Condensed", "Arial", sans-serif;
+			}
+			.leia-mais {
+				font-family: arial;
+				font-size: 14px;
+				font-weight:700;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				background-color: gray;
+				color: white;
+				box-shadow: 0 5px 0 gray;
+				float: right;
+				top: 
+			}
+			</style>
+		</head>
+		<body>
+		<main>
+		<h1>Cadastro de editoras</h1>
+		<form>
+		
+			<fieldset><legend>Identificação</legend>
+				<p>Nome: <input class="caixa"type="text" name="nome" id="nome" placeholder="Nome da editora"/></p>
+				<p>Email: <input class="caixa" type="email" name="email" id="email" placeholder="Email"/></p>
+				<p>Telefone: <input class="caixa" type="text" name="tel" id="tel" placeholder="Telefone"/></p>
+				<p>Nome de contato: <input class="caixa" type="text" name="contato" id="contato" placeholder="Nome de contato"/></p>
+				<p>Site: <input class="caixa" type="text" name="site" id="site" placeholder="site"/></p>
+				<p>CNPJ: <input class="caixa" type="text" name="cnpj" id="cnpj" placeholder="CNPJ"/></p>
+			</fieldset>
+			
+			<fieldset><legend>Endereço</legend>
+				<p>Logradouro: <input class="caixa" type="text" name="rua" id="rua" size="30" placeholder="Nome da rua"/></p>
+				<p>Numero: <input class="caixa" type="text" name="numero" id="numero" placeholder="Numero"/></p>
+				<p>Complemento: <input class="caixa" type="text" name="estado" id="estado" placeholder="Complemento"/></p>
+				<p>Cidade: <input class="caixa" type="text" name="cidade" id="cidade" placeholder="Cidade"/></p>
+				<p>Estado: <input class="caixa" type="text" name="estado" id="estado" placeholder="Estado"/></p>
+				<p>CEP: <input class="caixa" type="text" name="estado" id="estado" placeholder="CEP"/></p>
+			</fieldset>
+			
+			<fieldset><legend>Gênero</legend>
+				<p><input class="check" name="tgenero" type="checkbox" id="cpolicial">Policial </p>
+				<p><input class="check" name="tgenero" type="checkbox" id="cficção">Ficção</p>
+				<p><input class="check" name="tgenero" type="checkbox" id="cnão ficção">Não ficção </p>
+				<p><input class="check" name="tgenero" type="checkbox" id="creligioso">Religioso </p>
+				<p><input class="check" name="tgenero" type="checkbox" id="cesporte">Esporte </p>
+				<p><input class="check" name="tgenero" type="checkbox" id="cproficional">Proficional </p>
+				<p><input class="check" name="tgenero" type="checkbox" id="coutros">Outros </p>
+			</fieldset>
+			
+		</form> <br/> <br/> <br/>
+		
+		<button> Salvar </button>
+		
+		<a href="AC2_index.html" class="leia-mais"><strong>Voltar</strong></a><br/> <br/> <br/>
+		
+		</main>
+				
+		<footer class="rodape">
+		&copy; Faculdade Impacta de Tecnologia
+		<center><b>Integrantes do grupo</b></center>
+		<center>Valeria Pereira RA 1800382 Matheus Tavares RA 1800282 Victor Gonçalves RA 1800124</center><br/><p></p>
+		</footer>
+		
+		</body>
+</html>
